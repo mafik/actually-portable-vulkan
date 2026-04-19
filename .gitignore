@@ -1,0 +1,15 @@
+# Build artifacts
+obj/
+apv
+apv.aarch64.elf
+apv.com.dbg
+
+*.log
+
+third_party/
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
