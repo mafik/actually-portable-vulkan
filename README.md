@@ -2,7 +2,7 @@
 
 Shipping games should be simple.
 
-This is a proof-of-concept for a single binary that is simultaneously a valid Windows .EXE and a valid Linux ELF file. It can access native Vulkan drivers on both platforms, create a window, and render to it. The same file can be distributed to users of both platforms without any changes.
+This is a proof-of-concept for a single binary that is a valid Windows .EXE and simultaneously can natively execute on Linux (without Wine). It can access native Vulkan drivers on both platforms, create a window, and render to it. The same file can be distributed to users of both platforms without any changes.
 
 It builds upon Actually Portable Executables (a pretty cursed executable format) & foreign-dlopen (another proof-of-concept that allows statically-linked binary to dlopen shared libraries on any host libc).
 
